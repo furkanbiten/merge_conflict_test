@@ -2,11 +2,11 @@
 
 
 def main():
-    st = time.time()
+    s = time.time()
 
-    en = time.time()
+    e = time.time()
 
-    print("Amount of time took: {}".format(en - st))
+    print("Amount of time took: {}".format(e - s))
 
 
 if __name__ == "__main__":
