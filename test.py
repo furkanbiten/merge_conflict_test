@@ -1,12 +1,12 @@
- import time
+import time
 
 
 def main():
-    s = time.time()
+    start = time.time()
 
-    e = time.time()
+    end = time.time()
 
-    print("Amount of time took: {}".format(e - s))
+    print("Amount of time took: {}".format(end - start))
 
 
 if __name__ == "__main__":
