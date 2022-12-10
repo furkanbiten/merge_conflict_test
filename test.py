@@ -2,9 +2,10 @@ import time
 
 
 def main():
-    s = time.time()
+    # Origin
+    s_t = time.time()
 
-    e = time.time()
+    e_t = time.time()
 
     print("Amount of time took: {}".format(e - s))
 
