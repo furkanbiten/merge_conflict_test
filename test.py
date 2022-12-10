@@ -2,12 +2,12 @@ import time
 
 
 def main():
-    # Origin 
+    # Origin
     s_t = time.time()
 
     e_t = time.time()
 
-    print("Amount of time took: {}".format(e_t - s_t))
+    print("Amount of time took: {}".format(e - s))
 
 
 if __name__ == "__main__":
