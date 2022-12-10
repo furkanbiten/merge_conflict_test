@@ -3,11 +3,11 @@ import time
 
 def main():
     # Origin
-    s_t = time.time()
+    start = time.time()
 
-    e_t = time.time()
+    end = time.time()
 
-    print("Amount of time took: {}".format(e - s))
+    print("Amount of time took: {}".format(end - start))
 
 
 if __name__ == "__main__":
