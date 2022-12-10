@@ -1,11 +1,11 @@
-import time
+import time as t
 
 
 def main():
     # Origin
-    s_t = time.time()
+    s_t = t.time()
 
-    e_t = time.time()
+    e_t = t.time()
 
     print("Amount of time took: {}".format(e - s))
 
