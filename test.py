@@ -1,13 +1,13 @@
-import time
+import time as t
 
 
 def main():
     # Origin
     s_t = t.time()
 
-    end = time.time()
+    e_t = t.time()
 
-    print("Amount of time took: {}".format(end - s_t))
+    print("Amount of time took: {}".format(e - s))
 
 
 if __name__ == "__main__":
